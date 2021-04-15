@@ -86,8 +86,8 @@ foreach my $b (@table){
 
 sub revcom
 {
-	my($dna)=@_;
-	my ($revcom)=reverse($dna);
-	$revcom=~tr/ACGTacgt/TGCAtgca/;
+	my($dna) = @_;
+	my ($revcom) = reverse($dna);
+	$revcom =~ tr/ACGTacgt/TGCAtgca/;
 	return $revcom;
 }
